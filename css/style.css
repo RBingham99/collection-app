@@ -1,0 +1,118 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+header {
+    font-size: 1.3rem;
+    margin: 1rem 1rem 2rem 1rem;
+}
+
+header p {
+    font-size: 1.5rem;
+}
+
+body {
+    text-align: center;
+    background-color: #86942A;
+    color: #F3F4EC;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    row-gap: 2rem;
+}
+
+img {
+    padding: 0.5rem 0 0 0;
+    width: 90%;
+    height: auto;
+}
+
+.card {
+    border: 6px double #F3F4EC;
+    background-color: #507642;
+    width: 40%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.card h2 {
+    margin: 0.5rem 0 0.5rem 0;
+}
+
+.card p {
+    margin: 0.5rem 0 0.5rem 0;
+}
+
+#footer {
+    background-color: #507642;
+    margin: 2rem 1rem 1rem 1rem;
+    padding: 0.5rem;
+}
+
+footer img{
+    width: 20%;
+    height: auto;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    font-size: 1.2rem;
+}
+
+.input {
+    padding-top: 1rem;
+}
+
+#submit {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    padding: 0.5rem 3rem 0.5rem 3rem;
+}
+
+.backToTop {
+    display: flex;
+    justify-content: flex-end;
+}
+
+@media only screen and (min-width: 600px) {
+
+    img {
+        padding-top: 1rem;
+    }
+
+    .card {
+        width: 30%;
+        font-size: 1.5rem;
+    }
+
+    footer img {
+        width: 5%;
+        height: auto;
+        margin-right: 2.2rem;
+    }
+
+    .allInputs {
+        height: 2rem;
+
+        display: flex;
+        gap: 8rem;
+    }
+
+    .input {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #submit {
+        margin: 5rem 2.2rem 0 0;
+    }
+}
